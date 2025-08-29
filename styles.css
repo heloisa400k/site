@@ -1,8 +1,24 @@
 body{
     color:white;
     background:black;
+    margin: 0px;
 }
 
 header{
-    border: solid 2px pink
+    border-bottom: solid 2px pink;
+    padding: 20px;
+    font-size: 32px;
+    color: pink;
+}
+
+section {
+    background: rgb(221,169,178,1);
+    padding-bottom: 80px;
+    padding-top:80px;
+    display: flex;
+    justify-content: center;
+}
+
+.chamada-texto{
+    margin-right:20px ;
 }
