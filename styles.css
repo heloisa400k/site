@@ -12,7 +12,7 @@ header{
     color: pink;
 }
 
-section {
+section{
     background: rgb(221,169,178,1);
     padding-bottom: 80px;
     padding-top:80px;
@@ -41,7 +41,18 @@ overflow-x:auto;
 gap:4px;
 }
 
-section {
+section{
     padding-left: 20px;
     padding-right: 20px;
+}
+.categoria-videos img{
+opacity: 0.5;
+}
+
+.categoria-videos img:hover{
+    opacity: 1.0;
+    border:1px solid green;
+}
+.categoria h2{
+    color:rgb(221,169,178,1)
 }
